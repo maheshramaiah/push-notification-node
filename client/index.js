@@ -1,6 +1,6 @@
 (function () {
     if ('serviceWorker' in navigator) {
-        registerWorker().catch(err => comsole.log(err));
+        registerWorker().catch(err => console.log(err));
     }
 
     async function registerWorker() {

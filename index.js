@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const webPush = require('web-push');
 
-const PORT = 3000;
+const PORT = 9001;
 const app = express();
 const publicVapidKey = 'BFEoY37tH5XYv1VdHD3-kRplnJaTcUBVsFCN1dGgfebEIU-l6VUOL9U43SWY4Mf6EuoB-C4o8Nv2dt_tXCwwKso';
 const privateVapidKey = '8I-Wj3uTIdILGo1BXL5nqNnYpdJ9RtezocPGhDayS94';
